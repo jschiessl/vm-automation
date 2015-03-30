@@ -8,8 +8,8 @@ Currently, this set of scripts supports creating Azure Virtual Machines, install
 ##Ionic
 
 Folder *Boxstarter-Ionic* contains scripts using [Boxstarter](http://boxstarter.org/) to provision Azure VMs. It is required to
-1. have Boxstarter Azure installed (easiest way is pointing Internet Explorer to [http://boxstarter.org/nr/boxstarter.azure]
-2. have an Azure subscription where you have administrative rights on it
+1. have Boxstarter Azure installed (easiest way is pointing Internet Explorer to [http://boxstarter.org/nr/boxstarter.azure](http://boxstarter.org/nr/boxstarter.azure) )
+1. have an Azure subscription where you have administrative rights on it
 
 ### Creating an Azure VM capable of building Ionic projects
 1. Open Azure Powershell
