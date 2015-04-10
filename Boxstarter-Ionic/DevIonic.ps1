@@ -2,6 +2,11 @@
 cinst android-sdk
 Write-BoxstarterMessage "Installed Android SDK"
 
+if ($env:ANDROID_HOME -eq $null){
+  Write-BoxstarterMessage "Android_Home environment variable was not found, setting it"
+  [Environment]::SetEnvironmentVariable("ANDROID_HOME", "$env:localappdata\Android\sdk\", "Machine")
+}
+
 cd $env:LOCALAPPDATA\Android\android-sdk\tools
 
 echo "yes" | .\android update sdk --no-ui --all --filter tools
