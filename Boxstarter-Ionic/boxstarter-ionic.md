@@ -1,6 +1,7 @@
 It is required to
 
-1. have Boxstarter Azure installed (easiest way is pointing Internet Explorer to [http://boxstarter.org/nr/boxstarter.azure](http://boxstarter.org/nr/boxstarter.azure) )
+1. have Azure Powershell in a recent version installed. You can either use Web Platform Installer to get the latest version installed or point your Internet Explorer to http://boxstarter.org/package/nr/url?https://gist.githubusercontent.com/jschiessl/3762352f43ae690c2fa6/raw/6cdcc243ac0334290695ef61d30cbb791f6c7feb/Boxstarter%20Azure%20Primer
+1. have Boxstarter Azure installed (easiest way is pointing Internet Explorer to [http://boxstarter.org/package/nr/boxstarter.azure](http://boxstarter.org/nr/boxstarter.azure) )
 1. have an Azure subscription where you have administrative rights on it
 1. Have local Boxstarter packages (see *New-PackageFromScript* commands below)
 
