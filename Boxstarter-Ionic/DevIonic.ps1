@@ -14,11 +14,13 @@ echo "yes" | .\android update sdk --no-ui --all --filter platform-tools
 echo "yes" | .\android update sdk --no-ui --all --filter build-tools-19.1.0
 echo "yes" | .\android update sdk --no-ui --all --filter build-tools-20.0.0
 echo "yes" | .\android update sdk --no-ui --all --filter build-tools-21.1.2
+echo "yes" | .\android update sdk --no-ui --all --filter build-tools-22.0.0
 Write-BoxstarterMessage "Installed Android Build Tools"
 
 echo "yes" | .\android update sdk --no-ui --all --filter android-19
 echo "yes" | .\android update sdk --no-ui --all --filter android-20
 echo "yes" | .\android update sdk --no-ui --all --filter android-21
+echo "yes" | .\android update sdk --no-ui --all --filter android-22
 Write-BoxstarterMessage "Installed Android Targets"
 
 #Install-ChocolateyPath $env:localappdata\Android\android-sdk\tools 'Machine'
